@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "comfy_agent": "./src/agent/graph.py:graph"
+  },
+  "env": ".env"
+}

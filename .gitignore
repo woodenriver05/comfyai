@@ -1,0 +1,67 @@
+# Secrets & credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing & coverage
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# Data & DB
+pgdata/
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# AI agent config (local only)
+.claudeignore
+.codexignore
+.copilotignore
+.cursorignore
+.cursorindexingignore
+.geminiignore
+.gptignore
+.kimiignore
+.aiderignore
+.claude/
+.gemini/
+
+# LangGraph Studio state
+.langgraph_api/
+
+# Logs
+*.log
+nohup.out
+
+# Backups
+*.backup-*
+
+# Type checkers & linters
+.mypy_cache/
+.pytype/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
