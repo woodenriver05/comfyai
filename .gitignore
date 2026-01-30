@@ -24,3 +24,18 @@ web_custom_versions/
 openapi.yaml
 filtered-openapi.yaml
 uv.lock
+
+# === 로컬 작업 파일 (upstream에 불필요) ===
+rag-v1/
+reform/
+.claude/
+CLAUDE.md
+GEMINI.md
+DOWNLOAD_GUIDE.md
+FIRST_TEST_CHECKLIST.md
+download_essential_models.sh
+first_success_wan22_360p.json
+start_comfy.sh
+test_architect_path.py
+test_nodes_load.py
+=
